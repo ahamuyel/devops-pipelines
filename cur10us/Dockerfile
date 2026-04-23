@@ -14,6 +14,6 @@ RUN chown -R app:app /app
 
 USER app
 
-EXPOSE 3000
+EXPOSE 5173
 
 CMD ["npm", "run", "dev"]
